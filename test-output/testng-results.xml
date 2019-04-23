@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19806" started-at="2019-04-23T05:51:25Z" finished-at="2019-04-23T05:51:45Z">
+    <groups>
+    </groups>
+    <test name="TestChrome" duration-ms="11881" started-at="2019-04-23T05:51:25Z" finished-at="2019-04-23T05:51:37Z">
+      <class name="Note.CrossBrowser_Verify">
+        <test-method status="PASS" signature="VerifyTitle(java.lang.String)[pri:0, instance:Note.CrossBrowser_Verify@78e67e0a]" name="VerifyTitle" duration-ms="11858" started-at="2019-04-23T05:51:25Z" finished-at="2019-04-23T05:51:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+      </class> <!-- Note.CrossBrowser_Verify -->
+    </test> <!-- TestChrome -->
+    <test name="TestFirefox" duration-ms="19806" started-at="2019-04-23T05:51:25Z" finished-at="2019-04-23T05:51:45Z">
+      <class name="Note.CrossBrowser_Verify">
+        <test-method status="PASS" signature="VerifyTitle(java.lang.String)[pri:0, instance:Note.CrossBrowser_Verify@1786dec2]" name="VerifyTitle" duration-ms="19786" started-at="2019-04-23T05:51:25Z" finished-at="2019-04-23T05:51:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+      </class> <!-- Note.CrossBrowser_Verify -->
+    </test> <!-- TestFirefox -->
+  </suite> <!-- Suite -->
+</testng-results>
